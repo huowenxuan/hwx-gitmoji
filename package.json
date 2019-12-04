@@ -1,6 +1,6 @@
 {
-  "name": "gitmoji-cli",
-  "version": "3.0.0",
+  "name": "hwx-gitmoji",
+  "version": "3.0.3",
   "description": "A gitmoji client for using emojis on commit messages.",
   "engines": {
     "node": ">=10"
@@ -16,7 +16,7 @@
     "clean": "rm -rf lib",
     "flow": "flow",
     "lint": "prettier --check src/**/*.js",
-    "prepublishOnly": "yarn run lint && yarn run flow && yarn run test && yarn run clean && yarn run build",
+    "prepublishOnly": "yarn run build",
     "coverage": "codecov",
     "test": "jest"
   },
