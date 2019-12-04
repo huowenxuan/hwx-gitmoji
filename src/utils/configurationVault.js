@@ -25,22 +25,25 @@ const setScopePrompt = (scopePrompt: boolean) => {
 }
 
 const getAutoAdd = (): boolean => {
-  return config.get(CONFIGURATION_PROMPT_NAMES.AUTO_ADD) || false
+  return config.get(CONFIGURATION_PROMPT_NAMES.AUTO_ADD)
+    || true
 }
 
 const getEmojiFormat = (): string => {
   return (
-    config.get(CONFIGURATION_PROMPT_NAMES.EMOJI_FORMAT) ||
-    EMOJI_COMMIT_FORMATS.CODE
+    config.get(CONFIGURATION_PROMPT_NAMES.EMOJI_FORMAT)
+    || EMOJI_COMMIT_FORMATS.EMOJI
   )
 }
 
 const getSignedCommit = (): boolean => {
-  return config.get(CONFIGURATION_PROMPT_NAMES.SIGNED_COMMIT) || false
+  return config.get(CONFIGURATION_PROMPT_NAMES.SIGNED_COMMIT)
+    || false
 }
 
 const getScopePrompt = (): boolean => {
-  return config.get(CONFIGURATION_PROMPT_NAMES.SCOPE_PROMPT) || false
+  return config.get(CONFIGURATION_PROMPT_NAMES.SCOPE_PROMPT)
+    || false
 }
 
 export default {

@@ -1,6 +1,6 @@
 {
   "name": "hwx-gitmoji",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "A gitmoji client for using emojis on commit messages.",
   "engines": {
     "node": ">=10"

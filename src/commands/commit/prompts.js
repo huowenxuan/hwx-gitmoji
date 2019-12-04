@@ -19,7 +19,7 @@ export type Answers = {
   gitmoji: string,
   scope?: string,
   title: string,
-  message: string
+  // message: string
 }
 
 export default (gitmojis: Array<Gitmoji>): Array<Object> => [
@@ -58,9 +58,9 @@ export default (gitmojis: Array<Gitmoji>): Array<Object> => [
       return `[${input.length}/${TITLE_MAX_LENGTH_COUNT}]: ${input}`
     }
   },
-  {
-    name: 'message',
-    message: 'Enter the commit message:',
-    validate: guard.message
-  }
+  // {
+  //   name: 'message',
+  //   message: 'Enter the commit message:',
+  //   validate: guard.message
+  // }
 ]

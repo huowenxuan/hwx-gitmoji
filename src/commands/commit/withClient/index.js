@@ -31,8 +31,8 @@ const withClient = async (answers: Answers) => {
       ...isSigned,
       '-m',
       title,
-      '-m',
-      answers.message
+      // '-m',
+      // answers.message
     ])
 
     console.log(stdout)
