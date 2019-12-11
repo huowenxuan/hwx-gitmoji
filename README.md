@@ -108,3 +108,7 @@ Run `gitmoji -g` to setup some gitmoji-cli preferences, such as the auto `git ad
 ## 升级方法
 npm update -g hwx-gitmoji
 
+## 优化
+* emoji描述改为中文
+* message 不需要再输入
+* title 不强制输入
