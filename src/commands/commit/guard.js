@@ -7,7 +7,7 @@ const errors = {
 }
 
 const title = (title: string) =>
-  !title || title.includes('`') ? errors.title : true
+  title.includes('`') ? errors.title : true
 
 const message = (message: string) =>
   message.includes('`') ? errors.message : true
