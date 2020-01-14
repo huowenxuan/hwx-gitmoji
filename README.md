@@ -20,7 +20,7 @@ This project provides an easy solution for using [**gitmoji**](https://github.co
 
 ```bash
 $ npm i -g hwx-gitmoji
-// $ npm i -g gitmoji-cli
+# $ npm i -g gitmoji-cli
 ```
 
 ## Usage
